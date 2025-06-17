@@ -1,7 +1,7 @@
 # ServiceNow + AWS EC2 Provisioning with CMDB Update
 This project demonstrates a bi-directional integration between ServiceNow and AWS, enabling seamless EC2 provisioning from the ServiceNow Employee Center with automatic CMDB updates.
 
-Use Case
+# Use Case
 
 Employees can raise a self-service request for an EC2 instance directly from the ServiceNow portal.
 
@@ -24,7 +24,8 @@ Upon approval:
 ![image](https://github.com/user-attachments/assets/73e071ee-d54e-4eb1-98ea-e86ac868178a)
 ![image](https://github.com/user-attachments/assets/94a6b04f-984f-4f34-a96f-88b6bddd5633)
 
-Tech Stack
+# Tech Stack
+
 -->ServiceNow Flow Designer
 
 Used to build the approval & provisioning workflow
@@ -45,7 +46,7 @@ Acts as a bridge between ServiceNow and Lambda
 
 Uses OOB table cmdb_ci_ec2_instance from the Cloud Management Core plugin
 
-Deployment steps:
+# Deployment steps:
 
    1)create catalog item shown in image,provide values of ami-id in choice value for os
    ![image](https://github.com/user-attachments/assets/730e092a-f81e-4c19-91a7-b69d31e89ee2)
