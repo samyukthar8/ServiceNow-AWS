@@ -1,0 +1,9 @@
+{
+  "region": "us-east-1",
+  "instance_type": "t2.micro",
+  "ami_id": "ami-09e6f87a47903347c",
+  "instance_name": "testexc",
+  "enable_public_ip": true,
+  "subnet_id": "subnet-01de2e6c64bed09cb",
+  "security_group_id": "sg-0a0bf4078f4aaf77b"
+}
