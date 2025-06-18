@@ -56,8 +56,8 @@ Uses OOB table cmdb_ci_ec2_instance from the Cloud Management Core plugin
    
    3)Create API gateway in aws and link to the Lambda
    
-   4)In ServiceNow go to Intergration Hub->connections
-  ->Configure connection&in connection alias configure the API gateway url
+   4)In ServiceNow go to Integration Hub->Connections
+  ->Configure Connection&in Connection Alias configure the API gateway URL
   ![image](https://github.com/user-attachments/assets/e5cec605-3508-4dba-8f50-5425ac1a44e3)
   -> Create custom action
   -> Do the settings and configure json payload as described in image
