@@ -48,19 +48,19 @@ Uses OOB table cmdb_ci_ec2_instance from the Cloud Management Core plugin
 
 # Deployment steps:
 
-   1)create catalog item shown in image,provide values of ami-id in choice value for os
+   1)Create catalog item shown in image,provide values of ami-id in choice value for os
    ![image](https://github.com/user-attachments/assets/730e092a-f81e-4c19-91a7-b69d31e89ee2)
    ![image](https://github.com/user-attachments/assets/422c03d5-7798-4cd8-96c2-ec3086f7d58e)
    
-   2)go to aws and setup lambda, paste the code given and also attach ec2 full access role
+   2)Go to AWS and setup Lambda, paste the code given and also attach ec2 full access permissions.
    
-   3)create api gateway in aws and link to lambda
+   3)Create API gateway in aws and link to the Lambda
    
-   4)in servicenow go to Intergration Hub->connections
-  ->Configure connection&in connection alias configure the ap gateway url
+   4)In servicenow go to Intergration Hub->connections
+  ->Configure connection&in connection alias configure the API gateway url
   ![image](https://github.com/user-attachments/assets/e5cec605-3508-4dba-8f50-5425ac1a44e3)
-  -> create custom action
-  -> do the settings and configure json payload as described in image
+  -> Create custom action
+  -> Do the settings and configure json payload as described in image
   ![image](https://github.com/user-attachments/assets/9cd3d4d6-6667-4909-afad-0d5c281132c5)
 5)Create flow in a similar manner calling the custom action we created
 ![image](https://github.com/user-attachments/assets/454da73c-f799-4e0e-a6a4-8eef4170f79f)
